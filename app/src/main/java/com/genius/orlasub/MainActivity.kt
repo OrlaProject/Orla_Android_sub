@@ -16,8 +16,11 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun setOnBtnClickListener() {
-        btn_main_act_camera.setOnClickListener {
-            startActivity<CameraActivity>()
+
+        btn_ac_main_order_go.setOnClickListener {
+
+            startActivity<OrderActivity>()
         }
+
     }
 }

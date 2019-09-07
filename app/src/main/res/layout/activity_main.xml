@@ -1,15 +1,119 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
 
-    <Button
-        android:id="@+id/btn_main_act_camera"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="카메라 찍으러 가기"
-        android:layout_centerInParent="true"
-        />
+    <include
+        android:id="@+id/toolbar_main"
+        layout="@layout/toolbar_main" />
 
-</RelativeLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f3f3f3"
+        android:layout_marginBottom="100dp"/>
+
+
+    <RelativeLayout
+        android:id="@+id/btn_ac_main_order_go"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_marginHorizontal="34dp"
+        android:layout_marginBottom="14dp"
+        android:elevation="8dp"
+        android:background="@drawable/white_round_fill">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_centerInParent="true"
+            android:textColor="@color/black"
+            android:text="주문 내역 조회"/>
+
+
+
+    </RelativeLayout>
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/btn_ac_main_material_go"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_marginHorizontal="34dp"
+        android:elevation="8dp"
+        android:layout_marginBottom="14dp"
+        android:background="@drawable/white_round_fill">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_centerInParent="true"
+            android:textColor="@color/black"
+            android:text="원재료 이력 변경"/>
+
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_marginHorizontal="34dp"
+        android:elevation="8dp"
+        android:layout_marginBottom="14dp"
+        android:background="@drawable/white_round_fill">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_centerInParent="true"
+            android:textColor="@color/black"
+            android:text="메뉴 변경"/>
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_marginHorizontal="34dp"
+        android:elevation="8dp"
+        android:background="@drawable/white_round_fill">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_centerInParent="true"
+            android:textColor="@color/black"
+            android:text="로그아웃"/>
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
