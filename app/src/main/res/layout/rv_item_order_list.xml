@@ -12,13 +12,14 @@
 
     <TextView
         android:id="@+id/tv_rv_order_list_content"
-        android:layout_width="147dp"
+        android:layout_width="160dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="18dp"
         android:textSize="18sp"
         android:textColor="#1e2527"
         android:layout_marginTop="17dp"
-        android:text="이상윤님,
+        android:fontFamily="@font/noto_sans_cjkkr_regular"
+        android:text="이상윤님,\n
 친환경 사과 주스 x1 "
         />
 
@@ -37,6 +38,7 @@
             android:layout_height="wrap_content"
             android:textSize="12sp"
             android:textColor="#1e2527"
+            android:fontFamily="@font/noto_sans_cjkkr_regular"
             android:text="상세 정보 확인"/>
 
 
@@ -64,6 +66,7 @@
             android:layout_height="wrap_content"
             android:textSize="18sp"
             android:textColor="#ffffff"
+            android:fontFamily="@font/noto_sans_cjkkr_regular"
             android:layout_centerInParent="true"
            android:text="제조\n시작" />
 

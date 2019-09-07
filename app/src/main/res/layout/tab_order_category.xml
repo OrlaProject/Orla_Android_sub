@@ -17,6 +17,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="14dp"
+            android:fontFamily="@font/noto_sans_cjkkr_regular"
             android:textColor="#484848"/>
     </RelativeLayout>
     <RelativeLayout
@@ -30,6 +31,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="14dp"
+            android:fontFamily="@font/noto_sans_cjkkr_regular"
             android:textColor="#484848"/>
     </RelativeLayout>
     <RelativeLayout
@@ -43,6 +45,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="14dp"
+            android:fontFamily="@font/noto_sans_cjkkr_regular"
             android:textColor="#484848"/>
     </RelativeLayout>
     <RelativeLayout
@@ -53,6 +56,7 @@
         android:gravity="center">
         <TextView
             android:text="수령완료"
+            android:fontFamily="@font/noto_sans_cjkkr_regular"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="14dp"
