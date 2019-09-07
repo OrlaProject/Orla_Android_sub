@@ -22,5 +22,8 @@ class MainActivity : AppCompatActivity() {
             startActivity<OrderActivity>()
         }
 
+        btn_ac_main_material_go.setOnClickListener {
+            startActivity<OrderMaterialModifyActivity>()
+        }
     }
 }
