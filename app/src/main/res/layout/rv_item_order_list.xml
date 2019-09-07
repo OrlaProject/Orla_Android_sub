@@ -8,20 +8,17 @@
     android:background="@color/white">
 
 
-
-
     <TextView
         android:id="@+id/tv_rv_order_list_content"
         android:layout_width="160dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="18dp"
-        android:textSize="18sp"
-        android:textColor="#1e2527"
         android:layout_marginTop="17dp"
         android:fontFamily="@font/noto_sans_cjkkr_regular"
         android:text="이상윤님,\n
 친환경 사과 주스 x1 "
-        />
+        android:textColor="#1e2527"
+        android:textSize="18sp" />
 
 
 

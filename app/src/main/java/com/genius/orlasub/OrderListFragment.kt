@@ -27,11 +27,11 @@ class OrderListFragment : Fragment() {
 
 
         var orderlist : ArrayList<OrderListData> = ArrayList()
-        orderlist.add(OrderListData("이상윤님,친환경 사과 주스 x1","제조시작"))
-        orderlist.add(OrderListData("배선영님, 해커톤 샌드위치 x1","제조시작"))
-        orderlist.add(OrderListData("이소희님, 오렌지 샐러드x1","제조시작"))
-        orderlist.add(OrderListData("최다예님, 친환경 사과 주스 x1","제조시작"))
-        orderlist.add(OrderListData("하승완님, 해커톤 샌드위치 x1","제조시작"))
+        orderlist.add(OrderListData("이상윤님,\n친환경 사과 주스 x1","제조시작"))
+        orderlist.add(OrderListData("배선영님, \n해커톤 샌드위치 x1","제조시작"))
+        orderlist.add(OrderListData("이소희님, \n오렌지 샐러드x1","제조시작"))
+        orderlist.add(OrderListData("최다예님, \n친환경 사과 주스 x1","제조시작"))
+        orderlist.add(OrderListData("하승완님, \n해커톤 샌드위치 x1","제조시작"))
 
 
         var orderListRecyclcerViewAdapter= OrderListRecyclcerViewAdapter(context!!,orderlist)
